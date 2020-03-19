@@ -10,7 +10,7 @@ is not recommended as it may interfere with expected server behavior.
 *#
 
 <!--
-template name: pingid.sdk.authenticating.template.html
+template name: c360.pingid.sdk.authenticating.template.html
 version: 1.1
 -->
 
@@ -28,6 +28,11 @@ version: 1.1
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="/pingid-sdk-web/js/functions.js"></script>
   <link rel="stylesheet" media="all" type="text/css" href="/pingid-sdk-web/css/main.css" />
+  <style>
+        body {
+            background-image: assets/images/test-background.png;
+        }
+    </style>
 </head>
 #if($status == "in_progress")
 <body onload="startAuthenticating(&quot;$resumePath&quot;, &quot;$csrfToken&quot;)">
