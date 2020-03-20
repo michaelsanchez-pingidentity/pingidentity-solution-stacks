@@ -38,7 +38,7 @@
             </urn:RoleExtension>
         </md:Extensions>
         <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
-        <md:AssertionConsumerService index="0" Location="https://httpbin.org/anything" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" isDefault="true"/>
+        <md:AssertionConsumerService index="0" Location="https://sptest.iamshowcase.com/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" isDefault="true"/>
         <md:AttributeConsumingService index="0">
             <md:ServiceName xml:lang="en">AttributeContract</md:ServiceName>
             <md:RequestedAttribute Name="Email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
