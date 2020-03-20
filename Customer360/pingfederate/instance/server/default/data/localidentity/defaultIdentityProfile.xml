@@ -56,8 +56,8 @@
         </loc:field>
     </loc:fields>
     <loc:email-verification-config emailVerificationEnabled="false" verifyEmailTemplateName="message-template-email-ownership-verification.html" emailVerificationSentTemplateName="local.identity.email.verification.sent.html" emailVerificationSuccessTemplateName="local.identity.email.verification.success.html" emailVerificationErrorTemplateName="local.identity.email.verification.error.html" otlTimeToLive="1440" verificationEmailField="" verificationStatusField="" notificationPublisherId=""/>
-    <loc:registration-config captchaEnabled="false" templateName="local.identity.registration.html"/>
-    <loc:profile-config templateName="local.identity.profile.html" deleteIdentityEnabled="false"/>
+    <loc:registration-config captchaEnabled="false" templateName="c360.local.identity.registration.html"/>
+    <loc:profile-config templateName="c360.local.identity.profile.html" deleteIdentityEnabled="false"/>
     <loc:datastore-mapping>
         <loc:DataSource Description="" Type="LDAP" DataSourceId="LDAP-PingDirectory">
             <urn:Parameter Name="create_pattern" Value="uid=${username}" xmlns:urn="urn:sourceid.org:saml2:metadata-extension:v2"/>
