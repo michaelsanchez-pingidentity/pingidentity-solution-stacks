@@ -35,11 +35,7 @@ is not recommended as it may interfere with expected server behavior.
         }
     </style>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
-    <style>
-        body {
-            background-image: url("assets/images/test-background.png");
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="assets/css/bx-finance.css" />
 </head>
 
 <body onload="setFocus();">
@@ -51,7 +47,7 @@ is not recommended as it may interfere with expected server behavior.
     then 'has-logo' class should be added to 'ping-header' container.
     -->
     <div class="ping-header has-logo">
-        <span class="company-logo"><!-- client company logo here --><img src="assets/images/BXFinance-test-logo.png" /></span>
+        <span class="company-logo"><!-- client company logo here --></span>
         <text id="company-logo-div-text">
             #if ($existing_identifiers.size() > 0)
             $templateMessages.getMessage($messageKeyPrefix, "selectTitle")
